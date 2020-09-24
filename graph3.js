@@ -35,7 +35,7 @@ var g3 = {
                 "40772"
             ],
             "marker": {
-                "color": "rgb(116, 255, 216)" // mynote: male color
+                "color": "#28EBB5" // mynote: male color
             },
             "hoverinfo": "y+name",
             "orientation": "v"
@@ -74,7 +74,7 @@ var g3 = {
                 "55704"
             ],
             "marker": {
-                "color": "rgb(247, 62, 104)"
+                "color": "#EB345D" // mynote: female color
             },
             "hoverinfo": "y+name",
             "orientation": "v"

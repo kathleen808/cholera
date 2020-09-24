@@ -40,7 +40,7 @@ var g4 = {
                 "size": 18,
                 "family": "Oxygen"
             },
-            "text": "1851 UK Population Distribution"
+            "text": "1851 UK Population Gender Distribution"
         },
         "xaxis": {
             "range": [
@@ -57,8 +57,8 @@ var g4 = {
             "autorange": true
         },
         "legend": {
-            "x": 0.767617221278613,
-            "y": 0.8391608391608392
+            "x": 0.85,
+            "y": 0.95
         },
         "margin": {
             "b": 50,
@@ -348,8 +348,8 @@ var g4 = {
             "themeRef": "PLOTLY_WHITE"
         },
         "piecolorway": [
-            "#f73e68",
-            "#74ffd8"
+            "#EB345D", // mynote: female color
+            "#28EBB5"  // mynote: male color
         ]
     },
     "frames": []

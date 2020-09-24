@@ -128,11 +128,11 @@ var t1 = {
                         }
                     },
                     "color": [ // mynote: cell color
-                      "rgb(240, 244, 250)",
-                      "rgb(222, 229, 255)",
-                      "rgb(247, 229, 227)",
-                      "rgb(222, 229, 255)",
-                      "rgb(247, 229, 227)",
+                      "#F0F4FA", // age
+                      "#DAF8F7", // attacks
+                      "#F6DCDA", // deaths
+                      "#DAF8F7", // cumulative attacks
+                      "#F6DCDA", // cumulative deaths
                     ]
                 },
                 "meta": {
@@ -140,7 +140,7 @@ var t1 = {
                         "values": "Date - Attack - Death - Total Attacks - Total Deaths"
                     }
                 },
-                "height": 20,
+                "height": 25,
                 "valuessrc": "kdy3:19:fdb031,f709bb,9af9a5,fa3432,3b968f*",
                 "values": [ // mynote: change values here
                     [
@@ -367,17 +367,10 @@ var t1 = {
             },
             "header": {
                 "fill": {
-                    "meta": {
-                        "columnNames": {
-                            "color": "Date"
-                        }
-                    },
-                    "color": "rgb(229, 252, 231)"
-                },
-                "style-data": {
-                  "text-align": "center",
+                    "color": "#989BA0"
                 },
                 "font": {
+                    "color": "white",
                     "family": "Assistant"
                 },
                 "line": {

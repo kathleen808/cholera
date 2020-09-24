@@ -362,14 +362,16 @@ var g7 = {
             "themeRef": "PLOTLY_WHITE"
         },
         "piecolorway": [
-            "#FEFFE3",
-            "#FFFACF",
-            "#FFEABC",
-            "#DEAC94",
-            "#BE887E",
-            "#7E535B",
-            "#5E3E49",
-            "#3D2834"
+            "#FFFFD0",
+            "#FFFF93",
+            "#FFF265",
+            "#FCDD3A",
+            "#E3AB2E",
+            "#C77D23",
+            "#AB531A",
+            "#8F2F12",
+            "#73110C",
+            "#570711",
         ]
     },
     "frames": []

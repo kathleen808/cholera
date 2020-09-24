@@ -13,12 +13,16 @@ var t2 = {
             },
             "mode": "markers",
             "type": "table",
+            "columnwidth": [10, 10, 10],
             "cells": {
                 "meta": {
                     "columnNames": {
                         "values": "age - male - female"
                     }
                 },
+                "align": [
+                  "right", "right", "right"
+                ],
                 "valuessrc": "kdy3:20:9d9d76,884325,3e66a8*",
                 "values": [
                     [
@@ -58,7 +62,10 @@ var t2 = {
             },
             "header": {
                 "fill": {
-                    "color": "rgb(229, 252, 231)"
+                    "color": "#989BA0"
+                },
+                "font": {
+                  "color": "white"
                 },
                 "line": {
                     "width": 2
@@ -112,14 +119,15 @@ var t2 = {
                         "cells": {
                             "fill": {
                               "color": [ // mynote: cell color
-                                "rgb(240, 244, 250)",
-                                "rgb(236, 255, 248)",
-                                "rgb(247, 230, 232)"
+                                "#F0F4FA", // age
+                                "#DEFCF4", // male
+                                "#FCE0E7" // female
                               ]
                             },
                             "line": {
                                 "color": "white"
-                            }
+                            },
+                            "height": "25"
                         },
                         "header": {
                             "fill": {
@@ -146,8 +154,8 @@ var t2 = {
                 },
                 "margin": { //mynote: padding
                     "b": 30,
-                    "l": 50,
-                    "r": 50,
+                    "l": 155,
+                    "r": 155,
                     "t": 80,
                     "pad": 0
                 },

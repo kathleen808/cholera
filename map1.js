@@ -289,7 +289,7 @@ var m1 = {
             ],
             "marker": {
                 "size": 15,
-                "color": "rgb(6, 69, 255)", // mynote: pump color
+                "color": "#0034DA", // mynote: pump color
                 "symbol": "circle"
             },
             "radius": 39,

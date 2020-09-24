@@ -35,7 +35,7 @@ var g2 = {
                 "39.6"
             ],
             "marker": {
-                "color": "rgb(116, 255, 216)"
+                "color": "#28EBB5" // mynote: male color
             },
             "orientation": "v"
         },
@@ -73,7 +73,7 @@ var g2 = {
                 "37.8"
             ],
             "marker": {
-                "color": "rgb(247, 62, 104)"
+                "color": "#EB345D" // mynote: female color
             },
             "orientation": "v"
         }

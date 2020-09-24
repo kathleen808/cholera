@@ -3,7 +3,7 @@ var g1 = {
         {
             "line": {
                 "dash": "dot",
-                "color": "rgb(6, 69, 255)", // mynote: color of "Attacks" line
+                "color": "#00BEBB", // mynote: color of "Attacks" line
                 "shape": "linear"
             },
             "meta": {
@@ -15,6 +15,7 @@ var g1 = {
             },
             "mode": "lines",
             "name": "Attacks",
+            "opacity": 0.8,
             "type": "scatter",
             "xsrc": "kdy3:0:323c64",
             "x": [
@@ -110,7 +111,8 @@ var g1 = {
         },
         {
             "line": {
-                "dash": "dot"
+                "dash": "dot",
+                "color": "#D10E00" // mynote: color of "Deaths" line
             },
             "meta": {
                 "columnNames": {
@@ -120,6 +122,7 @@ var g1 = {
             },
             "mode": "lines",
             "name": "Deaths",
+            "opacity": 0.8,
             "type": "scatter",
             "xsrc": "kdy3:0:323c64",
             "x": [
@@ -216,7 +219,7 @@ var g1 = {
         {
             "line": {
                 "dash": "solid",
-                "color": "rgb(6, 69, 255)" // mynote: color of "Cumulative Attacks" line
+                "color": "#00BEBB" // mynote: color of "Cumulative Attacks" line
             },
             "meta": {
                 "columnNames": {
@@ -226,6 +229,7 @@ var g1 = {
             },
             "mode": "lines",
             "name": "Cumulative Attacks",
+            "opacity": 0.6,
             "type": "scatter",
             "xsrc": "kdy3:0:323c64",
             "x": [
@@ -317,12 +321,11 @@ var g1 = {
                 "571",
                 "571"
             ],
-            "opacity": 0.8,
             "stackgroup": null
         },
         {
             "line": {
-                "color": "rgb(239, 85, 59)"
+                "color": "#D10E00" // color of "cumulative deaths" line
             },
             "meta": {
                 "columnNames": {
@@ -332,6 +335,7 @@ var g1 = {
             },
             "mode": "lines",
             "name": "Cumulative Deaths",
+            "opacity": 0.6,
             "type": "scatter",
             "xsrc": "kdy3:0:323c64",
             "x": [
@@ -423,7 +427,6 @@ var g1 = {
                 "615",
                 "616"
             ],
-            "opacity": 0.8,
             "stackgroup": null
         }
     ],
