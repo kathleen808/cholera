@@ -10,6 +10,10 @@ var g3 = {
             "mode": "markers",
             "name": "Male",
             "type": "bar",
+            "hoverlabel": {
+              "namelength": -1,
+              "bordercolor": "white",
+            },
             "xsrc": "kdy3:14:020ed1",
             "x": [
                 "0-9",
@@ -49,6 +53,10 @@ var g3 = {
             },
             "name": "Female",
             "type": "bar",
+            "hoverlabel": {
+              "namelength": -1,
+              "bordercolor": "white",
+            },
             "xsrc": "kdy3:14:020ed1",
             "x": [
                 "0-9",

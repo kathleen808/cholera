@@ -464,17 +464,6 @@ var t1 = {
         "dragmode": "zoom",
         "template": {
             "data": {
-                "bar": [
-                    {
-                        "type": "bar",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
                 "table": [
                     {
                         "type": "table",

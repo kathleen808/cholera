@@ -297,10 +297,15 @@ var m1 = {
             "textfont": {
                 "size": 11
             },
-            "hoverinfo": "lon+lat+name",
+            // "hoverinfo": "lon+lat+name",
             "hoverlabel": {
-                "namelength": 15
+              "namelength": 0,
+              "bordercolor": "white",
+              "font": {
+                "family": "Inconsolata"
+              }
             },
+            "hovertemplate": "Lat: %{lat: > 03.6f}<span>&#176;</span><br>Long: %{lon: > 03.6f}<span>&#176;</span><br><b>Pump</b>",
             "showlegend": true,
             "textposition": "middle center"
         },
@@ -320,6 +325,14 @@ var m1 = {
             "mode": "markers",
             "name": "Deaths",
             "type": "scattermapbox",
+            "hoverlabel": {
+              "namelength": 0,
+              // "bordercolor": "white",
+              "font": {
+                "family": "Inconsolata"
+              }
+            },
+            "hovertemplate": "Lat: %{lat: > 03.6f}<span>&#176;</span><br>Long: %{lon: > 03.6f}<span>&#176;</span><br><b>%{text} Deaths</b>",
             "zsrc": "kdy3:3:28d61b",
             "z": [
                 "15",
@@ -1908,10 +1921,9 @@ var m1 = {
                 "1"
             ],
             "visible": true,
-            "hoverinfo": "lon+lat+text",
+            // "hoverinfo": "lon+lat+text",
             "showlegend": true,
             "texttemplate": "",
-            "hovertemplate": "",
             "autocolorscale": false
         }
     ],

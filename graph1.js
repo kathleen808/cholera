@@ -17,6 +17,10 @@ var g1 = {
             "name": "Attacks",
             "opacity": 0.8,
             "type": "scatter",
+            "hoverlabel": {
+              "namelength": -1,
+              "bordercolor": "white",
+            },
             "xsrc": "kdy3:0:323c64",
             "x": [
                 "8/19",
@@ -124,6 +128,10 @@ var g1 = {
             "name": "Deaths",
             "opacity": 0.8,
             "type": "scatter",
+            "hoverlabel": {
+              "namelength": -1
+              "bordercolor": "white",
+            },
             "xsrc": "kdy3:0:323c64",
             "x": [
                 "8/19",
@@ -231,6 +239,10 @@ var g1 = {
             "name": "Cumulative Attacks",
             "opacity": 0.6,
             "type": "scatter",
+            "hoverlabel": {
+              "namelength": -1,
+              "bordercolor": "white",
+            },
             "xsrc": "kdy3:0:323c64",
             "x": [
                 "8/19",
@@ -337,6 +349,10 @@ var g1 = {
             "name": "Cumulative Deaths",
             "opacity": 0.6,
             "type": "scatter",
+            "hoverlabel": {
+              "namelength": -1
+              "bordercolor": "white",
+        },
             "xsrc": "kdy3:0:323c64",
             "x": [
                 "8/19",

@@ -9,6 +9,10 @@ var g4 = {
             },
             "mode": "markers",
             "type": "pie",
+            "hoverlabel": {
+              "namelength": -1,
+              "bordercolor": "white",
+            },
             "marker": {
                 "line": {
                     "color": "rgb(255, 255, 255)",
