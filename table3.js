@@ -92,13 +92,13 @@ var t3 = {
     ],
     "layout": {
         "font": {
-            "family": "Droid Sans"
+            "family": "Assistant"
         },
         "title": {
             "x": 0.5,
             "font": {
                 "size": 18,
-                "family": "Raleway"
+                "family": "Oxygen"
             },
             "text": "1851 UK Census Data"
         },
@@ -135,7 +135,12 @@ var t3 = {
                         "type": "table",
                         "cells": {
                             "fill": {
-                                "color": "#EBF0F8"
+                              "color": [ // mynote: cell color
+                                "rgb(240, 244, 250)",
+                                "rgb(236, 255, 248)",
+                                "rgb(247, 230, 232)",
+                                "rgb(240, 244, 250)"
+                              ]
                             },
                             "line": {
                                 "color": "white"

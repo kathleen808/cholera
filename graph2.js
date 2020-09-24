@@ -80,13 +80,13 @@ var g2 = {
     ],
     "layout": {
         "font": {
-            "family": "Droid Sans"
+            "family": "Assistant"
         },
         "title": {
             "x": 0.5,
             "font": {
                 "size": 18,
-                "family": "Raleway"
+                "family": "Oxygen"
             },
             "text": "1854 Cholera Fatalities in Napels"
         },

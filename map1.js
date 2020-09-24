@@ -289,7 +289,7 @@ var m1 = {
             ],
             "marker": {
                 "size": 15,
-                "color": "rgb(6, 69, 255)",
+                "color": "rgb(6, 69, 255)", // mynote: pump color
                 "symbol": "circle"
             },
             "radius": 39,
@@ -1918,13 +1918,13 @@ var m1 = {
     "layout": {
         "geo": {},
         "font": {
-            "family": "Raleway"
+            "family": "Oxygen"
         },
         "title": {
             "font": {
                 "size": 18
             },
-            "text": "London's Cholera Outbreak in 1854"
+            "text": "1854 Cholera Outbreak in London"
         },
         "xaxis": {
             "range": [
@@ -1964,271 +1964,6 @@ var m1 = {
         "autosize": true,
         "template": {
             "data": {
-                "bar": [
-                    {
-                        "type": "bar",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "table": [
-                    {
-                        "type": "table",
-                        "cells": {
-                            "fill": {
-                                "color": "rgb(231,231,240)"
-                            },
-                            "line": {
-                                "color": "white"
-                            }
-                        },
-                        "header": {
-                            "fill": {
-                                "color": "rgb(183,183,191)"
-                            },
-                            "line": {
-                                "color": "white"
-                            }
-                        }
-                    }
-                ],
-                "carpet": [
-                    {
-                        "type": "carpet",
-                        "aaxis": {
-                            "gridcolor": "white",
-                            "linecolor": "white",
-                            "endlinecolor": "rgb(36,36,36)",
-                            "minorgridcolor": "white",
-                            "startlinecolor": "rgb(36,36,36)"
-                        },
-                        "baxis": {
-                            "gridcolor": "white",
-                            "linecolor": "white",
-                            "endlinecolor": "rgb(36,36,36)",
-                            "minorgridcolor": "white",
-                            "startlinecolor": "rgb(36,36,36)"
-                        }
-                    }
-                ],
-                "mesh3d": [
-                    {
-                        "type": "mesh3d",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "contour": [
-                    {
-                        "type": "contour",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
-                    }
-                ],
-                "heatmap": [
-                    {
-                        "type": "heatmap",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
-                    }
-                ],
-                "scatter": [
-                    {
-                        "type": "scatter",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "surface": [
-                    {
-                        "type": "surface",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "heatmapgl": [
-                    {
-                        "type": "heatmapgl",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "histogram": [
-                    {
-                        "type": "histogram",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "parcoords": [
-                    {
-                        "line": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        },
-                        "type": "parcoords"
-                    }
-                ],
-                "scatter3d": [
-                    {
-                        "type": "scatter3d",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "scattergl": [
-                    {
-                        "type": "scattergl",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "choropleth": [
-                    {
-                        "type": "choropleth",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "scattergeo": [
-                    {
-                        "type": "scattergeo",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "histogram2d": [
-                    {
-                        "type": "histogram2d",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
-                    }
-                ],
-                "scatterpolar": [
-                    {
-                        "type": "scatterpolar",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "contourcarpet": [
-                    {
-                        "type": "contourcarpet",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "scattercarpet": [
-                    {
-                        "type": "scattercarpet",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
                 "scattermapbox": [
                     {
                         "type": "scattermapbox",
@@ -2241,47 +1976,6 @@ var m1 = {
                                 "outlinewidth": 0
                             }
                         }
-                    }
-                ],
-                "scatterpolargl": [
-                    {
-                        "type": "scatterpolargl",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "scatterternary": [
-                    {
-                        "type": "scatterternary",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "outside",
-                                "ticklen": 8,
-                                "tickcolor": "rgb(36,36,36)",
-                                "tickwidth": 2,
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "histogram2dcontour": [
-                    {
-                        "type": "histogram2dcontour",
-                        "colorbar": {
-                            "ticks": "outside",
-                            "ticklen": 8,
-                            "tickcolor": "rgb(36,36,36)",
-                            "tickwidth": 2,
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
                     }
                 ]
             },
@@ -2599,7 +2293,7 @@ var m1 = {
         },
         "hoverlabel": {
             "font": {
-                "family": "Droid Sans"
+                "family": "Assistant"
             }
         },
         "showlegend": true,

@@ -432,9 +432,9 @@ var g1 = {
             "x": 0.5,
             "font": {
                 "size": 18,
-                "family": "Raleway"
+                "family": "Oxygen"
             },
-            "text": "Cholera Attacks and Deaths"
+            "text": "1854 Cholera Outbreak in London"
         },
         "xaxis": {
             "type": "category",
@@ -445,14 +445,14 @@ var g1 = {
             "ticks": "",
             "title": {
                 "font": {
-                    "family": "Raleway"
+                    "family": "Oxygen"
                 },
                 "text": "Date"
             },
             "nticks": 20,
             "showline": false,
             "tickfont": {
-                "family": "Droid Sans"
+                "family": "Assistant"
             },
             "autorange": true,
             "showspikes": false,
@@ -475,19 +475,19 @@ var g1 = {
             ],
             "title": {
                 "font": {
-                    "family": "Raleway"
+                    "family": "Oxygen"
                 },
                 "text": "Number of Occurrences"
             },
             "tickfont": {
-                "family": "Droid Sans"
+                "family": "Assistant"
             },
             "tickmode": "linear",
             "autorange": true
         },
         "legend": {
             "font": {
-                "family": "Raleway"
+                "family": "Oxygen"
             }
         },
         "autosize": true,
@@ -504,28 +504,7 @@ var g1 = {
                             }
                         }
                     }
-                ],
-                "table": [
-                    {
-                        "type": "table",
-                        "cells": {
-                            "fill": {
-                                "color": "#EBF0F8"
-                            },
-                            "line": {
-                                "color": "white"
-                            }
-                        },
-                        "header": {
-                            "fill": {
-                                "color": "#C8D4E3"
-                            },
-                            "line": {
-                                "color": "white"
-                            }
-                        }
-                    }
-                ],
+                ]
             },
             "layout": {
                 "geo": {
@@ -806,7 +785,7 @@ var g1 = {
         },
         "hoverlabel": {
             "font": {
-                "family": "Droid Sans"
+                "family": "Assistant"
             }
         }
     },

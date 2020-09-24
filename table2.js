@@ -79,13 +79,13 @@ var t2 = {
     ],
     "layout": {
         "font": {
-            "family": "Droid Sans"
+            "family": "Assistant"
         },
         "title": {
             "x": 0.5,
             "font": {
                 "size": 18,
-                "family": "Raleway"
+                "family": "Oxygen"
             },
             "text": "1854 Cholera Fatalities in Napels"
         },
@@ -106,23 +106,16 @@ var t2 = {
         "autosize": true,
         "template": {
             "data": {
-                "bar": [
-                    {
-                        "type": "bar",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
                 "table": [
                     {
                         "type": "table",
                         "cells": {
                             "fill": {
-                                "color": "#EBF0F8"
+                              "color": [ // mynote: cell color
+                                "rgb(240, 244, 250)",
+                                "rgb(236, 255, 248)",
+                                "rgb(247, 230, 232)"
+                              ]
                             },
                             "line": {
                                 "color": "white"
@@ -136,231 +129,6 @@ var t2 = {
                                 "color": "white"
                             }
                         }
-                    }
-                ],
-                "carpet": [
-                    {
-                        "type": "carpet",
-                        "aaxis": {
-                            "gridcolor": "#C8D4E3",
-                            "linecolor": "#C8D4E3",
-                            "endlinecolor": "#2a3f5f",
-                            "minorgridcolor": "#C8D4E3",
-                            "startlinecolor": "#2a3f5f"
-                        },
-                        "baxis": {
-                            "gridcolor": "#C8D4E3",
-                            "linecolor": "#C8D4E3",
-                            "endlinecolor": "#2a3f5f",
-                            "minorgridcolor": "#C8D4E3",
-                            "startlinecolor": "#2a3f5f"
-                        }
-                    }
-                ],
-                "mesh3d": [
-                    {
-                        "type": "mesh3d",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "contour": [
-                    {
-                        "type": "contour",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
-                    }
-                ],
-                "heatmap": [
-                    {
-                        "type": "heatmap",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
-                    }
-                ],
-                "scatter": [
-                    {
-                        "type": "scatter",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "surface": [
-                    {
-                        "type": "surface",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "heatmapgl": [
-                    {
-                        "type": "heatmapgl",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "histogram": [
-                    {
-                        "type": "histogram",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "parcoords": [
-                    {
-                        "line": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        },
-                        "type": "parcoords"
-                    }
-                ],
-                "scatter3d": [
-                    {
-                        "type": "scatter3d",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "scattergl": [
-                    {
-                        "type": "scattergl",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "choropleth": [
-                    {
-                        "type": "choropleth",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "scattergeo": [
-                    {
-                        "type": "scattergeo",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "histogram2d": [
-                    {
-                        "type": "histogram2d",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
-                    }
-                ],
-                "scatterpolar": [
-                    {
-                        "type": "scatterpolar",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "contourcarpet": [
-                    {
-                        "type": "contourcarpet",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        }
-                    }
-                ],
-                "scattercarpet": [
-                    {
-                        "type": "scattercarpet",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "scattermapbox": [
-                    {
-                        "type": "scattermapbox",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "scatterpolargl": [
-                    {
-                        "type": "scatterpolargl",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "scatterternary": [
-                    {
-                        "type": "scatterternary",
-                        "marker": {
-                            "colorbar": {
-                                "ticks": "",
-                                "outlinewidth": 0
-                            }
-                        }
-                    }
-                ],
-                "histogram2dcontour": [
-                    {
-                        "type": "histogram2dcontour",
-                        "colorbar": {
-                            "ticks": "",
-                            "outlinewidth": 0
-                        },
-                        "autocolorscale": true
                     }
                 ]
             },
