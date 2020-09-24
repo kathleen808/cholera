@@ -1,132 +1,11 @@
 var t1 = {
     "data": [
         {
-            "line": {
-                "dash": "dot",
-                "color": "rgb(6, 69, 255)",
-                "shape": "linear"
-            },
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "Attack",
-                    "text": "",
-                    "cells": {
-                        "fill": {
-                            "color": ""
-                        },
-                        "values": "Date - Attack - Death - Total Attacks - Total Deaths"
-                    },
-                    "header": {
-                        "fill": {
-                            "color": ""
-                        },
-                        "values": "G",
-                        "align": "center"
-                    },
-                    "columnwidth": ""
-                }
-            },
             "mode": "lines",
             "name": "Table",
             "type": "table",
-            "xsrc": "kdy3:0:323c64",
-            "x": [
-                "8/19",
-                "8/20",
-                "8/21",
-                "8/22",
-                "8/23",
-                "8/24",
-                "8/25",
-                "8/26",
-                "8/27",
-                "8/28",
-                "8/29",
-                "8/30",
-                "8/31",
-                "9/1",
-                "9/2",
-                "9/3",
-                "9/4",
-                "9/5",
-                "9/6",
-                "9/7",
-                "9/8",
-                "9/9",
-                "9/10",
-                "9/11",
-                "9/12",
-                "9/13",
-                "9/14",
-                "9/15",
-                "9/16",
-                "9/17",
-                "9/18",
-                "9/19",
-                "9/20",
-                "9/21",
-                "9/22",
-                "9/23",
-                "9/24",
-                "9/25",
-                "9/26",
-                "9/27",
-                "9/28",
-                "9/29"
-            ],
-            "ysrc": "kdy3:0:696309",
-            "y": [
-                "1",
-                "1",
-                "1",
-                "0",
-                "1",
-                "1",
-                "0",
-                "1",
-                "1",
-                "1",
-                "1",
-                "8",
-                "56",
-                "143",
-                "116",
-                "54",
-                "46",
-                "36",
-                "20",
-                "28",
-                "12",
-                "11",
-                "5",
-                "5",
-                "1",
-                "3",
-                "0",
-                "1",
-                "4",
-                "2",
-                "3",
-                "0",
-                "0",
-                "2",
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "1",
-                "0",
-                "0"
-            ],
             "cells": {
                 "fill": {
-                    "meta": {
-                        "columnNames": {
-                            "color": "Date"
-                        }
-                    },
                     "color": [ // mynote: cell color
                       "#F0F4FA", // age
                       "#DAF8F7", // attacks
@@ -135,13 +14,7 @@ var t1 = {
                       "#F6DCDA", // cumulative deaths
                     ]
                 },
-                "meta": {
-                    "columnNames": {
-                        "values": "Date - Attack - Death - Total Attacks - Total Deaths"
-                    }
-                },
                 "height": 25,
-                "valuessrc": "kdy3:19:fdb031,f709bb,9af9a5,fa3432,3b968f*",
                 "values": [ // mynote: change values here
                     [
                         "8/19/1854",
@@ -376,13 +249,7 @@ var t1 = {
                 "line": {
                     "width": 2
                 },
-                "meta": {
-                    "columnNames": {
-                        "values": "G"
-                    }
-                },
                 "height": 25,
-                "valuessrc": "kdy3:19:c97123",
                 "values": [
                     "Date",
                     "Attacks",
@@ -391,7 +258,6 @@ var t1 = {
                     "Cumulative Deaths"
                 ]
             },
-            "hovertemplate": ""
         }
     ],
     "layout": {
@@ -406,62 +272,7 @@ var t1 = {
             },
             "text": "1854 Cholera Outbreak in London"
         },
-        "xaxis": {
-            "type": "category",
-            "range": [
-                0,
-                41
-            ],
-            "ticks": "",
-            "title": {
-                "font": {
-                    "family": "Oxygen"
-                },
-                "text": "Date"
-            },
-            "nticks": 20,
-            "showline": false,
-            "tickfont": {
-                "family": "Assistant"
-            },
-            "autorange": true,
-            "showspikes": false,
-            "rangeslider": {
-                "range": [
-                    0,
-                    42
-                ],
-                "yaxis": {},
-                "visible": false,
-                "autorange": true
-            }
-        },
-        "yaxis": {
-            "type": "linear",
-            "dtick": 100,
-            "range": [
-                -33.166666666666664,
-                650.1666666666666
-            ],
-            "title": {
-                "font": {
-                    "family": "Oxygen"
-                },
-                "text": "Number of Occurrences"
-            },
-            "tickfont": {
-                "family": "Assistant"
-            },
-            "tickmode": "linear",
-            "autorange": true
-        },
-        "legend": {
-            "font": {
-                "family": "Oxygen"
-            }
-        },
         "autosize": true,
-        "dragmode": "zoom",
         "template": {
             "data": {
                 "table": [
@@ -487,14 +298,6 @@ var t1 = {
                 ]
             },
             "layout": {
-                "geo": {
-                    "bgcolor": "white",
-                    "showland": true,
-                    "lakecolor": "white",
-                    "landcolor": "white",
-                    "showlakes": true,
-                    "subunitcolor": "#C8D4E3"
-                },
                 "font": {
                     "color": "#2a3f5f"
                 },
@@ -504,67 +307,6 @@ var t1 = {
                     "r": 50,
                     "t": 80,
                     "pad": 0
-                },
-                "polar": {
-                    "bgcolor": "white",
-                    "radialaxis": {
-                        "ticks": "",
-                        "gridcolor": "#EBF0F8",
-                        "linecolor": "#EBF0F8"
-                    },
-                    "angularaxis": {
-                        "ticks": "",
-                        "gridcolor": "#EBF0F8",
-                        "linecolor": "#EBF0F8"
-                    }
-                },
-                "scene": {
-                    "xaxis": {
-                        "ticks": "",
-                        "gridcolor": "#DFE8F3",
-                        "gridwidth": 2,
-                        "linecolor": "#EBF0F8",
-                        "zerolinecolor": "#EBF0F8",
-                        "showbackground": true,
-                        "backgroundcolor": "white"
-                    },
-                    "yaxis": {
-                        "ticks": "",
-                        "gridcolor": "#DFE8F3",
-                        "gridwidth": 2,
-                        "linecolor": "#EBF0F8",
-                        "zerolinecolor": "#EBF0F8",
-                        "showbackground": true,
-                        "backgroundcolor": "white"
-                    },
-                    "zaxis": {
-                        "ticks": "",
-                        "gridcolor": "#DFE8F3",
-                        "gridwidth": 2,
-                        "linecolor": "#EBF0F8",
-                        "zerolinecolor": "#EBF0F8",
-                        "showbackground": true,
-                        "backgroundcolor": "white"
-                    }
-                },
-                "title": {
-                    "x": 0.05
-                },
-                "xaxis": {
-                    "ticks": "",
-                    "gridcolor": "#EBF0F8",
-                    "linecolor": "#EBF0F8",
-                    "automargin": true,
-                    "zerolinecolor": "#EBF0F8",
-                    "zerolinewidth": 2
-                },
-                "yaxis": {
-                    "ticks": "",
-                    "gridcolor": "#EBF0F8",
-                    "linecolor": "#EBF0F8",
-                    "automargin": true,
-                    "zerolinecolor": "#EBF0F8",
-                    "zerolinewidth": 2
                 },
                 "hovermode": "closest",
                 "colorscale": { },
@@ -584,11 +326,6 @@ var t1 = {
                 }
             },
             "themeRef": "PLOTLY_WHITE"
-        },
-        "hoverlabel": {
-            "font": {
-                "family": "Assistant"
-            }
         }
     },
     "frames": []
