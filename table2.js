@@ -6,7 +6,7 @@ var t2 = {
             "columnwidth": [10, 10, 10],
             "cells": {
                 "align": [
-                  "right", "right", "right"
+                    "right", "right", "right"
                 ],
                 "values": [
                     [
@@ -49,7 +49,7 @@ var t2 = {
                     "color": "#989BA0"
                 },
                 "font": {
-                  "color": "white"
+                    "color": "white"
                 },
                 "line": {
                     "width": 2
@@ -90,11 +90,11 @@ var t2 = {
                         "type": "table",
                         "cells": {
                             "fill": {
-                              "color": [ // mynote: cell color
-                                "#F0F4FA", // age
-                                "#DEFCF4", // male
-                                "#FCE0E7" // female
-                              ]
+                                "color": [ // mynote: cell color
+                                    "#F0F4FA", // age
+                                    "#DEFCF4", // male
+                                    "#FCE0E7" // female
+                                ]
                             },
                             "line": {
                                 "color": "white"

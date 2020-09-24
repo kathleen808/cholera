@@ -11,8 +11,8 @@ var g1 = {
             "opacity": 0.8,
             "type": "scatter",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "8/19",
@@ -114,8 +114,8 @@ var g1 = {
             "opacity": 0.8,
             "type": "scatter",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "8/19",
@@ -217,8 +217,8 @@ var g1 = {
             "opacity": 0.6,
             "type": "scatter",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "8/19",
@@ -319,9 +319,9 @@ var g1 = {
             "opacity": 0.6,
             "type": "scatter",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
-        },
+                "namelength": -1,
+                "bordercolor": "white",
+            },
             "x": [
                 "8/19",
                 "8/20",

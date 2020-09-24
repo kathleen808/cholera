@@ -286,11 +286,11 @@ var m1 = {
             "radius": 39,
             "visible": true,
             "hoverlabel": {
-              "namelength": 0,
-              "bordercolor": "white",
-              "font": {
-                "family": "Inconsolata"
-              }
+                "namelength": 0,
+                "bordercolor": "white",
+                "font": {
+                    "family": "Inconsolata"
+                }
             },
             "hovertemplate": "Lat: %{lat: > 03.6f}<span>&#176;</span><br>Long: %{lon: > 03.6f}<span>&#176;</span><br><b>Pump</b>",
             "showlegend": true,
@@ -301,10 +301,10 @@ var m1 = {
             "name": "Deaths",
             "type": "scattermapbox",
             "hoverlabel": {
-              "namelength": 0,
-              "font": {
-                "family": "Inconsolata"
-              }
+                "namelength": 0,
+                "font": {
+                    "family": "Inconsolata"
+                }
             },
             "hovertemplate": "Lat: %{lat: > 03.6f}<span>&#176;</span><br>Long: %{lon: > 03.6f}<span>&#176;</span><br><b>%{text} Deaths</b>",
             "lat": [

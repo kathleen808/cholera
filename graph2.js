@@ -5,8 +5,8 @@ var g2 = {
             "name": "Male",
             "type": "bar",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "0-1",
@@ -39,8 +39,8 @@ var g2 = {
             "name": "Female",
             "type": "bar",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "0-1",

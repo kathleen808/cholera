@@ -1,181 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cholera Project</title>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
-  <script type="text/javascript" src="plotlyjs-bundle.js"></script>
-  <script type="text/javascript" src="table1.js"></script>
-  <script type="text/javascript" src="table2.js"></script>
-  <script type="text/javascript" src="table3.js"></script>
-  <script type="text/javascript" src="graph1.js"></script>
-  <script type="text/javascript" src="graph2.js"></script>
-  <script type="text/javascript" src="graph3.js"></script>
-  <script type="text/javascript" src="graph4.js"></script>
-  <script type="text/javascript" src="graph5.js"></script>
-  <script type="text/javascript" src="graph6.js"></script>
-  <script type="text/javascript" src="graph7.js"></script>
-  <script type="text/javascript" src="map1.js"></script>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Cholera Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script type="text/javascript" src="plotlyjs-bundle.js"></script>
+    <script type="text/javascript" src="table1.js"></script>
+    <script type="text/javascript" src="table2.js"></script>
+    <script type="text/javascript" src="table3.js"></script>
+    <script type="text/javascript" src="graph1.js"></script>
+    <script type="text/javascript" src="graph2.js"></script>
+    <script type="text/javascript" src="graph3.js"></script>
+    <script type="text/javascript" src="graph4.js"></script>
+    <script type="text/javascript" src="graph5.js"></script>
+    <script type="text/javascript" src="graph6.js"></script>
+    <script type="text/javascript" src="graph7.js"></script>
+    <script type="text/javascript" src="map1.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div id="secondMenu" class="ui centered grid">
-    <div class="ui simple dropdown item"> Menu Item 1
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <p class="item">Item 1</p>
-        <p class="item">Item 2</p>
-      </div>
-    </div>
-    <div class="ui simple dropdown item"> Menu Item 2
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <p class="item">Item 1</p>
-        <p class="item">Item 2</p>
-      </div>
-    </div>
-    <div class="ui simple dropdown item"> Menu Item 3
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <p class="item">Item 1</p>
-        <p class="item">Item 2</p>
-      </div>
-    </div>
-  </div>
-
-  <div id="main-content" class="ui centered grid container">
-    <div class="ui row">
-      <div id="table1" class="plotly-graph-div"></div>
-    </div>
-    <div class="ui row">
-      <div id="graph1" class="plotly-graph-div"></div>
-    </div>
-    <div class="ui row">
-      <div id="map1" class="plotly-graph-div"></div>
-    </div>
-    <div class="row">
-      <div class="ui two column grid">
-        <div class="row">
-          <div class="column">
-            <div id="table2" class="plotly-graph-div"></div>
-          </div>
-          <div class="column">
-            <div id="graph2" class="plotly-graph-div"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="ui two column grid">
-        <div class="row">
-          <div class="column">
-            <div id="table3" class="plotly-graph-div"></div>
-          </div>
-          <div class="column">
-            <div id="graph3" class="plotly-graph-div"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="ui two column grid">
-        <div class="row">
-          <div class="column">
-            <div id="graph4" class="plotly-graph-div"></div>
-          </div>
-          <div class="column">
-            <div id="graph7" class="plotly-graph-div"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="ui two column grid">
-        <div class="row">
-          <div class="column">
-            <div id="graph5" class="plotly-graph-div"></div>
-          </div>
-          <div class="column">
-            <div id="graph6" class="plotly-graph-div"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="footer" class="footer-background">
-    <div class="ui three column grid container">
-      <div class="column">
-        <h3>NAVIGATION</h3>
-        <hr/>
-        <div class="ui list">
-          <div class="item">About Us</div>
-          <div class="item">Item 2</div>
-        </div>
-      </div>
-      <div class="column">
-        <h3>MAIN MENU</h3>
-        <hr/>
-        <div class="ui list">
-          <div class="item">Men</div>
-          <div class="item">Women</div>
-          <div class="item">Kids</div>
-          <div class="item">Brands</div>
-          <div class="item">Search</div>
-        </div>
-      </div>
-      <div class="column">
-        <h3>CONNECT</h3>
-        <hr/>
-        <div class="ui list">
-          <div class="item">Sign up for the latest updates</div>
-          <div class="ui labeled input">
-            <input type="text" placeholder="Enter email address">
-            <div class="ui black label">
-              Join
+    <div id="secondMenu" class="ui centered grid">
+        <div class="ui simple dropdown item"> Menu Item 1
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <p class="item">Item 1</p>
+                <p class="item">Item 2</p>
             </div>
-          </div>
         </div>
-      </div>
+        <div class="ui simple dropdown item"> Menu Item 2
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <p class="item">Item 1</p>
+                <p class="item">Item 2</p>
+            </div>
+        </div>
+        <div class="ui simple dropdown item"> Menu Item 3
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <p class="item">Item 1</p>
+                <p class="item">Item 2</p>
+            </div>
+        </div>
     </div>
-  </div>
+
+    <div id="main-content" class="ui centered grid container">
+        <div class="ui row">
+            <div id="table1" class="plotly-graph-div"></div>
+        </div>
+        <div class="ui row">
+            <div id="graph1" class="plotly-graph-div"></div>
+        </div>
+        <div class="ui row">
+            <div id="map1" class="plotly-graph-div"></div>
+        </div>
+        <div class="row">
+            <div class="ui two column grid">
+                <div class="row">
+                    <div class="column">
+                        <div id="table2" class="plotly-graph-div"></div>
+                    </div>
+                    <div class="column">
+                        <div id="graph2" class="plotly-graph-div"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ui two column grid">
+                <div class="row">
+                    <div class="column">
+                        <div id="table3" class="plotly-graph-div"></div>
+                    </div>
+                    <div class="column">
+                        <div id="graph3" class="plotly-graph-div"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ui two column grid">
+                <div class="row">
+                    <div class="column">
+                        <div id="graph4" class="plotly-graph-div"></div>
+                    </div>
+                    <div class="column">
+                        <div id="graph7" class="plotly-graph-div"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ui two column grid">
+                <div class="row">
+                    <div class="column">
+                        <div id="graph5" class="plotly-graph-div"></div>
+                    </div>
+                    <div class="column">
+                        <div id="graph6" class="plotly-graph-div"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="footer-background">
+        <div class="ui three column grid container">
+            <div class="column">
+                <h3>NAVIGATION</h3>
+                <hr/>
+                <div class="ui list">
+                    <div class="item">About Us</div>
+                    <div class="item">Item 2</div>
+                </div>
+            </div>
+            <div class="column">
+                <h3>MAIN MENU</h3>
+                <hr/>
+                <div class="ui list">
+                    <div class="item">Men</div>
+                    <div class="item">Women</div>
+                    <div class="item">Kids</div>
+                    <div class="item">Brands</div>
+                    <div class="item">Search</div>
+                </div>
+            </div>
+            <div class="column">
+                <h3>CONNECT</h3>
+                <hr/>
+                <div class="ui list">
+                    <div class="item">Sign up for the latest updates</div>
+                    <div class="ui labeled input">
+                        <input type="text" placeholder="Enter email address">
+                        <div class="ui black label">
+                            Join
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
 <script type="text/javascript">
 
 function myPlot(elementId, varName, zoom){
-  var gd = document.getElementById(elementId);
+    var gd = document.getElementById(elementId);
 
-  if (zoom) {
-    window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
-    var resizeDebounce = null;
-    function resizePlot() {
-      var bb = gd.getBoundingClientRect();
-      Plotly.relayout(gd, {
-        width: bb.width,
-        height: bb.height
-      });
+    if (zoom) {
+        window.PLOTLYENV={'BASE_URL': 'https://plotly.com'};
+        var resizeDebounce = null;
+        function resizePlot() {
+            var bb = gd.getBoundingClientRect();
+            Plotly.relayout(gd, {
+                width: bb.width,
+                height: bb.height
+            });
+        }
+        window.addEventListener('resize', function() {
+            if (resizeDebounce) {
+                window.clearTimeout(resizeDebounce);
+            }
+            resizeDebounce = window.setTimeout(resizePlot, 100);
+        });
     }
-    window.addEventListener('resize', function() {
-      if (resizeDebounce) {
-        window.clearTimeout(resizeDebounce);
-      }
-      resizeDebounce = window.setTimeout(resizePlot, 100);
+    Plotly.newPlot(gd,  {
+        data: this[varName].data,
+        layout: this[varName].layout,
+        frames: this[varName].frames
     });
-  }
-  Plotly.newPlot(gd,  {
-    data: this[varName].data,
-    layout: this[varName].layout,
-    frames: this[varName].frames
-  });
 };
 
 myPlot('table1', 't1', false);

@@ -5,8 +5,8 @@ var g3 = {
             "name": "Male",
             "type": "bar",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "0-9",
@@ -40,8 +40,8 @@ var g3 = {
             "name": "Female",
             "type": "bar",
             "hoverlabel": {
-              "namelength": -1,
-              "bordercolor": "white",
+                "namelength": -1,
+                "bordercolor": "white",
             },
             "x": [
                 "0-9",

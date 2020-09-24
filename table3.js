@@ -6,7 +6,7 @@ var t3 = {
             "columnwidth": [60, 100, 100, 100],
             "cells": {
                 "align": [
-                  "right", "right", "right", "right"
+                    "right", "right", "right", "right"
                 ],
                 "values": [
                     [
@@ -64,7 +64,7 @@ var t3 = {
                     "color": "#989BA0"
                 },
                 "font": {
-                  "color": "white"
+                    "color": "white"
                 },
                 "values": [
                     "Age",
@@ -103,12 +103,12 @@ var t3 = {
                         "type": "table",
                         "cells": {
                             "fill": {
-                              "color": [ // mynote: cell color
-                                "#F0F4FA", // age
-                                "#DEFCF4", // male
-                                "#FCE0E7", // female
-                                "#F0F4FA"  // total
-                              ]
+                                "color": [ // mynote: cell color
+                                    "#F0F4FA", // age
+                                    "#DEFCF4", // male
+                                    "#FCE0E7", // female
+                                    "#F0F4FA"  // total
+                                ]
                             },
                             "line": {
                                 "color": "white"

@@ -7,11 +7,11 @@ var t1 = {
             "cells": {
                 "fill": {
                     "color": [ // mynote: cell color
-                      "#F0F4FA", // age
-                      "#DAF8F7", // attacks
-                      "#F6DCDA", // deaths
-                      "#DAF8F7", // cumulative attacks
-                      "#F6DCDA", // cumulative deaths
+                        "#F0F4FA", // age
+                        "#DAF8F7", // attacks
+                        "#F6DCDA", // deaths
+                        "#DAF8F7", // cumulative attacks
+                        "#F6DCDA", // cumulative deaths
                     ]
                 },
                 "height": 25,
