@@ -4,10 +4,17 @@ var g2 = {
             "mode": "markers",
             "name": "Male",
             "type": "bar",
-            "hoverlabel": {
-                "namelength": -1,
-                "bordercolor": "white",
+            "marker": {
+                "color": "#28EBB5" // mynote: male color
             },
+            "hoverlabel": {
+                "namelength": 0,
+                "bordercolor": "white",
+                "font": {
+                    "color": "#143938",
+                }
+            },
+            "hovertemplate": "Age: %{x}<br>Male Deaths: %{y}",
             "x": [
                 "0-1",
                 "2-5",
@@ -30,18 +37,16 @@ var g2 = {
                 "20.5",
                 "39.6"
             ],
-            "marker": {
-                "color": "#28EBB5" // mynote: male color
-            },
             "orientation": "v"
         },
         {
             "name": "Female",
             "type": "bar",
             "hoverlabel": {
-                "namelength": -1,
+                "namelength": 0,
                 "bordercolor": "white",
             },
+            "hovertemplate": "Age: %{x}<br>Female Deaths: %{y}",
             "x": [
                 "0-1",
                 "2-5",
@@ -73,6 +78,10 @@ var g2 = {
     "layout": {
         "font": {
             "family": "Assistant"
+        },
+        "legend": {
+            "x": 1,
+            "y": 0.8
         },
         "title": {
             "x": 0.5,

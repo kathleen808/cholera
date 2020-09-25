@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
@@ -26,31 +27,27 @@
 </head>
 <body>
 
-    <div id="secondMenu" class="ui centered grid">
-        <div class="ui simple dropdown item"> Menu Item 1
+    <div id="secondMenu" class="ui left inverted menu">
+        <div class="my-menu-item ui active simple item">
+            <a href="xxx">HOME</a>
+        </div>
+        <div class="my-menu-item ui simple dropdown item"> DOCS
             <i class="dropdown icon"></i>
-            <div class="menu">
-                <p class="item">Item 1</p>
-                <p class="item">Item 2</p>
+            <div class="inverted menu">
+                <p class="item">Data</p>
+                <p class="item">Tools</p>
             </div>
         </div>
-        <div class="ui simple dropdown item"> Menu Item 2
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <p class="item">Item 1</p>
-                <p class="item">Item 2</p>
-            </div>
-        </div>
-        <div class="ui simple dropdown item"> Menu Item 3
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <p class="item">Item 1</p>
-                <p class="item">Item 2</p>
-            </div>
+        <div class="my-menu-item ui simple item">
+            <a href="xxx">CONTACT</a>
         </div>
     </div>
 
     <div id="main-content" class="ui centered grid container">
+        <div class="ui row"></div>
+        <div class="ui horizontal divider header">
+            <span class="myheader">1854 Cholera Outbreak in London</span>
+        </div>
         <div class="ui row">
             <div id="table1" class="plotly-graph-div"></div>
         </div>
@@ -60,9 +57,12 @@
         <div class="ui row">
             <div id="map1" class="plotly-graph-div"></div>
         </div>
+        <div class="ui horizontal divider header">
+            <span class="myheader">1854 Cholera Outbreak in Napels</span>
+        </div>
         <div class="row">
             <div class="ui two column grid">
-                <div class="row">
+                <div class="ui row">
                     <div class="column">
                         <div id="table2" class="plotly-graph-div"></div>
                     </div>
@@ -72,7 +72,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="ui horizontal divider header">
+            <span class="myheader">1851 UK Census Data</span>
+        </div>
+        <div class="ui row">
             <div class="ui two column grid">
                 <div class="row">
                     <div class="column">
@@ -111,37 +114,22 @@
     </div>
 
     <div id="footer" class="footer-background">
-        <div class="ui three column grid container">
+        <div class="ui two column grid container">
             <div class="column">
-                <h3>NAVIGATION</h3>
+                <h3>QUICK LINKS</h3>
                 <hr/>
                 <div class="ui list">
-                    <div class="item">About Us</div>
-                    <div class="item">Item 2</div>
-                </div>
-            </div>
-            <div class="column">
-                <h3>MAIN MENU</h3>
-                <hr/>
-                <div class="ui list">
-                    <div class="item">Men</div>
-                    <div class="item">Women</div>
-                    <div class="item">Kids</div>
-                    <div class="item">Brands</div>
-                    <div class="item">Search</div>
+                    <div class="item">Home</div>
+                    <div class="item">Data</div>
+                    <div class="item">Tools</div>
                 </div>
             </div>
             <div class="column">
                 <h3>CONNECT</h3>
                 <hr/>
                 <div class="ui list">
-                    <div class="item">Sign up for the latest updates</div>
-                    <div class="ui labeled input">
-                        <input type="text" placeholder="Enter email address">
-                        <div class="ui black label">
-                            Join
-                        </div>
-                    </div>
+                    <div class="item">Contact</div>
+                    <div class="item">Github</div>
                 </div>
             </div>
         </div>

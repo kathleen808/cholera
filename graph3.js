@@ -4,10 +4,17 @@ var g3 = {
             "mode": "markers",
             "name": "Male",
             "type": "bar",
-            "hoverlabel": {
-                "namelength": -1,
-                "bordercolor": "white",
+            "marker": {
+                "color": "#28EBB5" // mynote: male color
             },
+            "hoverlabel": {
+                "namelength": 0,
+                "bordercolor": "white",
+                "font": {
+                    "color": "#143938",
+                }
+            },
+            "hovertemplate": "Age: %{x}<br>Male Population: %{y}",
             "x": [
                 "0-9",
                 "10-19",
@@ -30,19 +37,19 @@ var g3 = {
                 "166194",
                 "40772"
             ],
-            "marker": {
-                "color": "#28EBB5" // mynote: male color
-            },
-            "hoverinfo": "y+name",
             "orientation": "v"
         },
         {
             "name": "Female",
             "type": "bar",
             "hoverlabel": {
-                "namelength": -1,
+                "namelength": 0,
                 "bordercolor": "white",
+                "font": {
+                    "color": "white",
+                }
             },
+            "hovertemplate": "Age: %{x}<br>Female Population: %{y}",
             "x": [
                 "0-9",
                 "10-19",
@@ -117,6 +124,10 @@ var g3 = {
             "layout": {
                 "font": {
                     "color": "#2a3f5f"
+                },
+                "legend": {
+                    "x": 1,
+                    "y": 0.8
                 },
                 "xaxis": {
                     "ticks": "",
