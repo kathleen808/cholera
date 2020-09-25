@@ -3,14 +3,15 @@ var g7 = {
         {
             "mode": "markers",
             "type": "pie",
-            "marker": {
-                "line": {
-                    "color": "rgb(255, 255, 255)",
-                    "width": 1
-                }
-            },
             "rotation": -90,
-            "textinfo": "label+percent",
+            "hoverlabel": {
+                "namelength": [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+            },
+            "hovertemplate": "<b>Age %{label}</b><br>%{percent}",
+            "texttemplate": "<b>%{label}</b><br>%{percent}",
+            "textfont": {
+                "size": 14,
+            },
             "direction": "clockwise",
             "labels": [
                 "0-9",

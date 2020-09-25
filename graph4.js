@@ -3,18 +3,22 @@ var g4 = {
         {
             "mode": "markers",
             "type": "pie",
+            "rotation": 60,
             "hoverlabel": {
-                "namelength": -1,
+                "namelength": [ 0, 0 ],
                 "bordercolor": "white",
-            },
-            "marker": {
-                "line": {
-                    "color": "rgb(255, 255, 255)",
-                    "width": 1
+                "font": {
+                    "color": [
+                        "#143938",
+                        "white"
+                    ],
                 }
             },
-            "rotation": 60,
-            "textinfo": "label+value+percent",
+            "hovertemplate": "<b>%{label}</b><br>%{value}<br>%{percent}",
+            "texttemplate": "<b>%{label}</b><br>%{value}<br>%{percent}",
+            "textfont": {
+                "size": 14,
+            },
             "direction": "clockwise",
             "labels": [
                 "Male",
@@ -54,7 +58,8 @@ var g4 = {
             "data": { },
             "layout": {
                 "font": {
-                    "color": "#2a3f5f"
+                    "color": "#143938",
+                    "size": 12,
                 },
                 "hovermode": "closest",
                 "colorscale": { },
