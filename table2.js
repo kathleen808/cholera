@@ -5,8 +5,15 @@ var t2 = {
             "type": "table",
             "columnwidth": [10, 10, 10],
             "cells": {
-                "align": [
-                    "right", "right", "right"
+                "align": "center",
+                "font": {
+                    "family": "Oxygen Mono",
+                    "size": 12
+                },
+                "format": [
+                    "",
+                    " >4.1f",
+                    " >4.1f",
                 ],
                 "values": [
                     [
@@ -74,14 +81,6 @@ var t2 = {
             },
             "text": "1854 Cholera Fatalities in Napels"
         },
-        "xaxis": {
-            "range": [ -1, 6 ],
-            "autorange": true
-        },
-        "yaxis": {
-            "range": [ -1, 4 ],
-            "autorange": true
-        },
         "autosize": true,
         "template": {
             "data": {
@@ -118,8 +117,8 @@ var t2 = {
                 },
                 "margin": { //mynote: padding
                     "b": 30,
-                    "l": 155,
-                    "r": 155,
+                    "l": 50,
+                    "r": 50,
                     "t": 80,
                     "pad": 0
                 },
