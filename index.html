@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script type="text/javascript" src="header.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
     <script type="text/javascript" src="plotlyjs-bundle.js"></script>
     <script type="text/javascript" src="table1.js"></script>
     <script type="text/javascript" src="table2.js"></script>
@@ -26,22 +28,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div id="navBar" class="ui left inverted fluid menu">
-        <div class="my-menu-item ui active simple item">
-            <a href="https://kathleen808.github.io/cholera/">HOME</a>
-        </div>
-        <div class="my-menu-item ui simple dropdown item"> DOCS
-            <i class="dropdown icon"></i>
-            <div class="inverted menu">
-                <a href="index.html" class="item">Data</a>
-                <a href="index.html" class="item">Tools</a>
-            </div>
-        </div>
-        <div class="my-menu-item ui simple item">
-            <a href="index.html">CONTACT</a>
-        </div>
-    </div>
+    <div id="header"></div>
 
     <div id="main-content" class="ui centered grid container">
         <div class="ui row"></div>
@@ -113,29 +100,8 @@
         </div>
     </div>
 
-    <p style="font-size: 30px">
-
-    <div id="footer" class="footer-background">
-        <div class="ui two column grid container">
-            <div class="column">
-                <h3>QUICK LINKS</h3>
-                <hr/>
-                <div class="ui inverted link list">
-                    <a href="index.html" class="item">Home</a>
-                    <a href="index.html" class="item">Data</a>
-                    <a href="index.html" class="item">Tools</a>
-                </div>
-            </div>
-            <div class="column">
-                <h3>CONNECT</h3>
-                <hr/>
-                <div class="ui inverted link list">
-                    <a href="index.html" class="item">Contact</a>
-                    <a href="index.html" class="item">Github</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div style="height: 50px"></div>
+    <div id="footer"></div>
 </body>
 </html>
 
@@ -168,6 +134,8 @@ function myPlot(elementId, varName, zoom){
     });
 };
 
+buildHeader();
+buildFooter();
 myPlot('table1', 't1', false);
 myPlot('graph1', 'g1', true);
 myPlot('table2', 't2', false);
