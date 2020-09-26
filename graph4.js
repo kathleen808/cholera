@@ -42,6 +42,7 @@ var g4 = {
             },
             "text": "1851 UK Population Gender Distribution"
         },
+        "showlegend": false,
         "legend": {
             "x": 0.85,
             "y": 0.95

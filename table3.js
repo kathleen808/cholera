@@ -72,7 +72,9 @@ var t3 = {
                     "color": "#989BA0"
                 },
                 "font": {
-                    "color": "white"
+                    "color": "white",
+                    "family": "Assistant",
+                    "size": 15,
                 },
                 "values": [
                     "Age",

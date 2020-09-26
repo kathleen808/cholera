@@ -255,7 +255,8 @@ var t1 = {
                 },
                 "font": {
                     "color": "white",
-                    "family": "Assistant"
+                    "family": "Assistant",
+                    "size": 15,
                 },
                 "line": {
                     "width": 2
@@ -263,9 +264,9 @@ var t1 = {
                 "align" : "center",
                 "height": 25,
                 "values": [
-                    "Date",
-                    "Attacks",
-                    "Deaths",
+                    "<br>Date",
+                    "<br>Attacks",
+                    "<br>Deaths",
                     "Cumulative Attacks",
                     "Cumulative Deaths"
                 ]
