@@ -4,6 +4,7 @@ var t1 = {
             "mode": "lines",
             "name": "Table",
             "type": "table",
+            "columnwidth": [ 100, 75, 75, 75, 75 ],
             "cells": {
                 "fill": {
                     "color": [ // mynote: cell color

@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
@@ -36,25 +37,70 @@
             <span class="myheader">1854 Cholera Outbreak in London</span>
         </div>
         <div class="ui row">
-            <div id="table1" class="plotly-graph-div"></div>
+            <div class="ui nine wide column">
+                <div id="table1" class="plotly-graph-div"></div>
+                <br>
+                <div class="caption">
+                    Tabular data representation of Cholera attacks and deaths
+                    in London in 1854. Cells with a blue background are
+                    correlated to attacks, and a red background is associated with deaths.
+                </div>
+            </div>
         </div>
         <div class="ui row">
-            <div id="graph1" class="plotly-graph-div"></div>
+            <div class="ui fourteen wide column">
+                <div id="graph1" class="plotly-graph-div"></div>
+                <br>
+                <div class="caption">
+                    Graphical data representation of Cholera attacks and deaths
+                    in London in 1854. Uses the data table above, matching the
+                    color scheme: blue=attack, red=death. <b>The number of Cholera
+                    attacks and fatalities spiked around September 1, 1854, but
+                    flattened out over the following week.</b>
+                </div>
+            </div>
         </div>
         <div class="ui row">
-            <div id="map1" class="plotly-graph-div"></div>
+            <div class="ui fourteen wide column">
+                <div id="map1" class="plotly-graph-div"></div>
+                <br>
+                <div class="caption">
+                    Map depicting the Cholera attacks and deaths
+                    in London in 1854. Each dark blue dot represents a water pump.
+                    The colors and sizes of the remaining dots represent
+                    the number of deaths at that location (see colorscale to
+                    the right). <b>The majority of fatalities occurred
+                    near the water pump at Broadwick St. and Lexington St.</b>
+
+                </div>
+            </div>
         </div>
         <div class="ui horizontal divider header">
-            <span class="myheader">1854 Cholera Outbreak in Napels</span>
+            <span class="myheader">1854 Cholera Outbreak in Naples</span>
         </div>
-        <div class="row">
+        <div class="ui row">
             <div class="ui two column grid">
                 <div class="ui row">
                     <div class="column">
                         <div id="table2" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Tabular data representation of Cholera fatalities
+                            in Naples in 1854. Cells with a green background
+                            contain values for "Male", and cells with a pink
+                            background contain values for "Female".
+                        </div>
                     </div>
                     <div class="column">
                         <div id="graph2" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Graphical data representation of Cholera fatalities
+                            in Naples in 1854. Uses the data table above,
+                            matching the color scheme: green=male, pink=female.
+                            <b>The number of fatalities from the 80+ age group was
+                            substantially larger than any other group.</b>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,9 +113,24 @@
                 <div class="row">
                     <div class="column">
                         <div id="table3" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Tabular data representation of the 1851 UK Census Data.
+                            Cells with a green background
+                            contain values for "Male", and cells with a pink
+                            background contain values for "Female".
+                        </div>
                     </div>
                     <div class="column">
                         <div id="graph3" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Graphical data representation of the 1851 UK Census Data.
+                            Uses the data table above,
+                            matching the color scheme: green=male, pink=female.
+                            <b>Based on the data, age seems to be negatively
+                                correlated with population.</b>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,9 +140,21 @@
                 <div class="row">
                     <div class="column">
                         <div id="graph4" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Pie chart comparing the number of Males vs. Females
+                            based on the 1851 UK Census Data.
+                            <b>There were slightly more females than males
+                            in the UK in 1851.</b>
+                        </div>
                     </div>
                     <div class="column">
                         <div id="graph7" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Pie chart representing the <b>UK population age groups</b>
+                            based on the 1851 UK Census Data.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,9 +164,19 @@
                 <div class="row">
                     <div class="column">
                         <div id="graph5" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Pie chart representing the <b>male age groups</b>
+                            based on the 1851 UK Census Data.
+                        </div>
                     </div>
                     <div class="column">
                         <div id="graph6" class="plotly-graph-div"></div>
+                        <br>
+                        <div class="caption">
+                            Pie chart representing the <b>female age groups</b>
+                            based on the 1851 UK Census Data.
+                        </div>
                     </div>
                 </div>
             </div>

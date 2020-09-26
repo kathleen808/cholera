@@ -3,7 +3,7 @@ function buildHeader() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<div id="navBar" class="ui left inverted fluid menu"> \
-        <a href="https://kathleen808.github.io/cholera/" class="my-menu-item ui simple item">HOME</a> \
+        <a href="index.html" class="my-menu-item ui simple item">HOME</a> \
         <a href="data.html" class="my-menu-item ui simple item">DATA</a> \
         <a href="tools.html" class="my-menu-item ui simple item">TOOLS & LIBRARIES</a> \
         <a href="contact.html" class="my-menu-item ui simple item">CONTACT</a> \

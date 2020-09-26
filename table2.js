@@ -81,7 +81,7 @@ var t2 = {
                 "size": 18,
                 "family": "Oxygen"
             },
-            "text": "1854 Cholera Fatalities in Napels"
+            "text": "1854 Cholera Fatalities in Naples"
         },
         "autosize": true,
         "template": {
