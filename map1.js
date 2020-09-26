@@ -892,13 +892,16 @@ var m1 = {
             },
             "text": "1854 Cholera Outbreak in London"
         },
+        "legend": {
+            "itemsizing": "constant",
+        },
         "mapbox": {
-            "zoom": 15.07823375273071,
+            "zoom": 15.2,
             "pitch": 0,
-            "style": "stamen-terrain",
+            "style": "dark",
             "center": {
-                "lat": 51.51266941347558,
-                "lon": -0.13740090015971873
+                "lat": 51.51298,
+                "lon": -0.13650
             },
             "layers": [],
             "bearing": 0

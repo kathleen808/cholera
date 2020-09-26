@@ -190,7 +190,7 @@
 
 <script type="text/javascript">
 
-function myPlot(elementId, varName, zoom){
+function myPlot(elementId, varName, zoom, map){
     var gd = document.getElementById(elementId);
 
     if (zoom) {
@@ -210,25 +210,35 @@ function myPlot(elementId, varName, zoom){
             resizeDebounce = window.setTimeout(resizePlot, 100);
         });
     }
-    Plotly.newPlot(gd,  {
-        data: this[varName].data,
-        layout: this[varName].layout,
-        frames: this[varName].frames
-    });
+    if (map) {
+        Plotly.newPlot(gd,  {
+            data: this[varName].data,
+            layout: this[varName].layout,
+            frames: this[varName].frames,
+            config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A"}
+        });
+    } else {
+        Plotly.newPlot(gd,  {
+            data: this[varName].data,
+            layout: this[varName].layout,
+            frames: this[varName].frames
+        });
+    }
+
 };
 
 buildHeader();
 buildFooter();
-myPlot('table1', 't1', false);
-myPlot('graph1', 'g1', true);
-myPlot('table2', 't2', false);
-myPlot('graph2', 'g2', true);
-myPlot('table3', 't3', false);
-myPlot('graph3', 'g3', true);
-myPlot('graph4', 'g4', true);
-myPlot('graph5', 'g5', true);
-myPlot('graph6', 'g6', true);
-myPlot('graph7', 'g7', true);
-myPlot('map1', 'm1', true);
+myPlot('table1', 't1', false, false);
+myPlot('graph1', 'g1', true, false);
+myPlot('table2', 't2', false, false);
+myPlot('graph2', 'g2', true, false);
+myPlot('table3', 't3', false, false);
+myPlot('graph3', 'g3', true, false);
+myPlot('graph4', 'g4', true, false);
+myPlot('graph5', 'g5', true, false);
+myPlot('graph6', 'g6', true, false);
+myPlot('graph7', 'g7', true, false);
+myPlot('map1', 'm1', true, true);
 
 </script>

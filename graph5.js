@@ -51,7 +51,8 @@ var g5 = {
         },
         "legend": {
             "x": 0.875,
-            "y": 0.8
+            "y": 0.8,
+            // "traceorder": "reversed",
         },
         "margin": {
             "b": 50,
