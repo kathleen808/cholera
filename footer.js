@@ -18,7 +18,7 @@ function buildFooter() {
                 <hr/> \
                 <div class="ui inverted link list"> \
                     <a href="contact.html" class="item">Contact</a> \
-                    <a href="https://github.com/kathleen808/cholera" class="item">Github</a> \
+                    <a href="https://github.com/kathleen808/cholera" target="_blank" class="item">Github</a> \
                 </div> \
             </div> \
         </div> \
