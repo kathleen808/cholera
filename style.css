@@ -33,6 +33,14 @@ body {
 .caption {
     background-color: rgb(0, 0, 0, 0);
     font-size: 14px;
+    padding: 0% 5%;
+}
+
+.caption-bold {
+    font-weight: bold;
+    text-align: center;
+    color: #4951E6;
+    padding-top: 10px;
 }
 
 #graph1, #map1{

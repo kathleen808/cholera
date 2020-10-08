@@ -281,6 +281,7 @@ var m1 = {
             "marker": {
                 "size": 15,
                 "color": "#0034DA", // mynote: pump color
+                "opacity": 0.7,
                 "symbol": "circle"
             },
             "radius": 39,
@@ -813,7 +814,7 @@ var m1 = {
             ],
             "marker": {
                 "symbol": "circle",
-                "opacity": 0.75,
+                "opacity": 0.6,
                 "sizemin": 0,
                 "sizeref": 0.0667,
                 "size": deaths,
@@ -834,9 +835,9 @@ var m1 = {
                     "thickness": 0.04,
                     "thicknessmode": "fraction"
                 },
-                "color": deaths,
+                "color": "#D10E00",
                 "sizemode": "area",
-                "showscale": true,
+                "showscale": false,
                 "colorscale": [
                     [
                         0,
@@ -894,11 +895,13 @@ var m1 = {
         },
         "legend": {
             "itemsizing": "constant",
+            "x": 1.0,
+            "y": 0.75,
         },
         "mapbox": {
             "zoom": 15.2,
             "pitch": 0,
-            "style": "dark",
+            "style": "light",
             "center": {
                 "lat": 51.51298,
                 "lon": -0.13650
